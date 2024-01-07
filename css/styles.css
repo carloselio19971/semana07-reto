@@ -374,15 +374,29 @@ justify-content: space-between;
     .main{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        width: 500px;
     }
 
 
     .proyect , .blog{
-        width: 50%; 
+        width: auto; 
     }
     
+    .contenedor-secundario{
+        width: auto;
+        margin: 0 auto;
+         border-radius: 12px;
+    }
+
     .columna-secundaria-3, .columna-secundaria-4, .columna-secundaria-5, .columna-secundaria-7{
-        width: 50%;
+        width: auto;
+    }
+
+    .ancho-columna{
+       margin: 20px;
+       text-align: center;
     }
 
 }
